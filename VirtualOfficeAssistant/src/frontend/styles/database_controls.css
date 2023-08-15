@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.dashboard-container {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.dashboard-header {
+    text-align: center;
+}
+
+.dashboard-header img {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+.dashboard-header h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+}
+
+.database-actions,
+.user-management {
+    margin: 20px 0;
+}
+
+.database-actions h2,
+.user-management h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.database-actions button,
+.user-management button {
+    padding: 8px 12px;
+    margin-right: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.database-actions button:hover,
+.user-management button:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f2f2f2;
+    color: #555;
+}
+
+.dashboard-footer {
+    text-align: right;
+    margin-top: 20px;
+    color: #777;
+}
+
+.dashboard-footer a {
+    font-size: 14px;
+    color: #4CAF50;
+    text-decoration: none;
+}

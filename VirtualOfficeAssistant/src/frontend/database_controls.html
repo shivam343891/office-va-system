@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Database Controls</title>
+    <link rel="stylesheet" href="styles/database_controls.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <div class="dashboard-header">
+            <img src="logo.png" alt="Your Company Logo">
+            <h1>Database Admin Dashboard</h1>
+        </div>
+        <!-- Add content for the database admin dashboard here -->
+        <div class="database-actions">
+            <h2>Database Management</h2>
+            <button id="backup-btn">Backup Database</button>
+            <button id="restore-btn">Restore Database</button>
+        </div>
+        <div class="user-management">
+            <h2>User Management</h2>
+            <!-- Add a table to display and manage user information -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Username</th>
+                        <th>Email</th>
+                        <th>Role</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Add rows for each user with edit/delete options -->
+                    <tr>
+                        <td>user1</td>
+                        <td>user1@example.com</td>
+                        <td>Employee</td>
+                        <td>
+                            <button>Edit</button>
+                            <button>Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>user2</td>
+                        <td>user2@example.com</td>
+                        <td>Admin</td>
+                        <td>
+                            <button>Edit</button>
+                            <button>Delete</button>
+                        </td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+        </div>
+        <div class="dashboard-footer">
+            <p>Welcome, Database Admin!</p>
+            <a href="logout.html">Logout</a>
+        </div>
+    </div>
+    <script src="scripts/database_controls.js"></script>
+</body>
+</html>
